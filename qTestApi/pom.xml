@@ -153,6 +153,6 @@
 </pluginManagement>
 
 
-
+<defaultGoal>install</defaultGoal>
 </build>
 </project>

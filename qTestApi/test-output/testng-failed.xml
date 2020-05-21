@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qTestApi.test.ApiCallTest">
+      <class name="com.qTestHSC.gateway.APIExceutor">
         <methods>
           <include name="testCaseStatusChangeWithAPI"/>
+          <include name="inputPropChange"/>
         </methods>
-      </class> <!-- com.qTestApi.test.ApiCallTest -->
+      </class> <!-- com.qTestHSC.gateway.APIExceutor -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
